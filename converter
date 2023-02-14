@@ -42,8 +42,8 @@ void dec_to_bin( int n)
 {
      logo();
     int choice ;
-     printf("Enter 1 to convert from decimal to binary\n ");
-     printf("Enter 2 to conver from binary to decimal\n ");
+     printf("Enter 1 to convert from decimal to binary\n");
+     printf("Enter 2 to conver from binary to decimal\n");
      scanf("%d",&choice);
      switch(choice)
      { case 1:
@@ -76,5 +76,9 @@ void dec_to_bin( int n)
          default:
       printf("Invalid choice . \n");
     }
+
+    fflush(stdin);
+    printf("\nPress ENTER to close ");
+    getchar();
   return 0 ;
 }
